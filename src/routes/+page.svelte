@@ -1,4 +1,4 @@
-<h1>Welcome to Svelte-Cloudflare</h1>
+<h1>Welcome to </h1>
 
 <style>
     main {
@@ -12,6 +12,10 @@
       border: none;
       padding: 8px 12px;
       border-radius: 2px;
+    }
+
+    p{
+        white-space: nowrap;
     }
 
     :global(body) {
