@@ -1,2 +1,31 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to Svelte-Cloudflare</h1>
+
+<style>
+    main {
+      font-family: sans-serif;
+      text-align: center;
+    }
+  
+    button {
+      background: #ff3e00;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 2px;
+    }
+
+    :global(body) {
+      background: transparent; /* Make it white if you need */
+      background-color: #15222e;
+      color: #fcbe24;
+      padding: 0 24px;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+</style>
