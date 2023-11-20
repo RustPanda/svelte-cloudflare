@@ -1,4 +1,6 @@
-<h1>Welcome to Svelre-Cloudflare</h1>
+<main>
+    <h1>Welcome to <span>Svelre-Cloudflare</span></h1>
+</main>
 
 <style>
     main {
@@ -14,7 +16,7 @@
       border-radius: 2px;
     }
 
-    h1{
+    span{
         white-space: nowrap;
     }
 
@@ -28,7 +30,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
