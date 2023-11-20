@@ -1,4 +1,4 @@
-<h1>Welcome to </h1>
+<h1>Welcome to Svelre-Cloudflare</h1>
 
 <style>
     main {
@@ -14,7 +14,7 @@
       border-radius: 2px;
     }
 
-    p{
+    h1{
         white-space: nowrap;
     }
 
