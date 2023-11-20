@@ -1,5 +1,5 @@
 <main>
-    <h1>Welcome to <span>Svelre-Cloudflare</span></h1>
+    <h1>Welcome to <span>Svelte-Cloudflare</span></h1>
 </main>
 
 <style>
