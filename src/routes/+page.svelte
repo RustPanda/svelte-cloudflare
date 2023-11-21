@@ -26,7 +26,7 @@
       color: #fcbe24;
       padding: 0 24px;
       margin: 0;
-      height: 100vh;
+      height: 100dvh;
       display: flex;
       flex-direction: column;
       justify-content: center;
