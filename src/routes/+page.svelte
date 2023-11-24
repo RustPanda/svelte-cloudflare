@@ -1,5 +1,15 @@
+<script>
+  const sendMsg = () => {
+    console.log('clicked');
+    fetch('/api/msg', {
+      method: 'POST',
+    })
+  }
+</script>
+
 <main>
     <h1>Welcome to <span>Svelte-Cloudflare</span></h1>
+    <button type="button" on:click={sendMsg}>Press to send msg</button>
 </main>
 
 <style>
@@ -14,23 +24,23 @@
       border: none;
       padding: 8px 12px;
       border-radius: 2px;
+      font-weight: bold;
+      font-size:100%;
+      margin: 3px;
+    }
+
+    button:hover {
+      cursor: pointer;
+      border: solid  #7c5e54;
+      margin: 0;
+    }
+
+    button:active {
+      background: #e93a00;
     }
 
     span{
         white-space: nowrap;
-    }
-
-    :global(body) {
-      background: transparent; /* Make it white if you need */
-      background-color: #15222e;
-      color: #fcbe24;
-      padding: 0 24px;
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
 </style>
