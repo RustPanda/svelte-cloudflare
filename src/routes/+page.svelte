@@ -42,5 +42,4 @@
     span{
         white-space: nowrap;
     }
-
 </style>
